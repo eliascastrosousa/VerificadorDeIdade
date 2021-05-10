@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Modelo</title>
+    <link rel="stylesheet" href="../verificador de idade/estilo.css">
+</head>
+<body>
+    <header> 
+        <h1>Verificador de Idade</h1>
+    </header>
+    <section> 
+        <p>Ano de Nascimento: <input type="text" id="ano"> </p>
+        <p>Sexo:
+            <input type="radio" name="sexo" id="mas" checked>
+            <label for="mas"> Masculino </label>
+            <input type="radio" name="sexo" id="fem">
+            <label for="fem">Feminino</label>            
+        </p>
+        <p> <!-- Botão Confirmar-->
+            <input type="button" value="Confirmar" onclick="confirmar()"> 
+        </p>
+
+        <div id="foto" >
+            <img id="imagem" src="../imagens/familia.jpg">
+        </div>
+
+        <p id="observacao"> Verifique as informações antes de confirmar!</p>
+        
+    </section>
+    
+    <footer>
+        <p>&copy; Elias Castro</p>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+</html>
+
